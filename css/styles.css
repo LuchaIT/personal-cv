@@ -1,0 +1,54 @@
+body {
+
+  background-color: #e7eaa8;
+  background-image: linear-gradient(#e7eaa8, #f6faf7);
+  color: #654062;
+}
+hr {
+  border-color: #cfd297;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 7px;
+  width: 6%;
+  /* border-style: dotted none none;  <-- Moze i ovako */
+}
+
+th {
+  padding: 0;
+}
+
+td {
+  padding-left: 0;
+  padding-right: 40px;
+}
+h1, h3 {
+  color: #303e27;
+}
+
+a {
+  padding: 2px 1px 0;
+  text-decoration: none;
+
+}
+a:link{
+  color: #303e27;
+}
+
+a:visited {
+  background: #BAE498;
+  color: #a57809;
+
+}
+
+a:focus {
+  background: #BAE498;
+  border-bottom: 4px solid;
+}
+a:hover {
+  background: #cfd297;
+  border-bottom: 1px solid;
+}
+img{
+  height: 200px;
+  width: 200px;
+}
